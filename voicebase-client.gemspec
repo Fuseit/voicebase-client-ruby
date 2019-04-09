@@ -17,5 +17,6 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency "mimemagic"
   s.add_development_dependency "rspec"
   s.add_development_dependency "dotenv"
-
+  s.add_development_dependency "vcr"
+  s.add_development_dependency "webmock"
 end
