@@ -1,0 +1,60 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://apis.voicebase.com/v2-beta/media
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - voicebase-client-ruby/2.0.0
+      Accept:
+      - application/json
+      Authorization:
+      - Bearer authToken123
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Date:
+      - Tue, 09 Apr 2019 14:25:10 GMT
+      Server:
+      - Apache
+      X-Application-Context:
+      - application
+      X-Trace-Id:
+      - 4FAD8D82%3AE0E0_0A40E1B3%3A01BB_5CACAB46_134FD%3A6737
+      Link:
+      - </v2-beta/media>; "self"
+      Content-Type:
+      - application/json;charset=UTF-8
+      Cache-Control:
+      - private
+      Set-Cookie:
+      - SERVERID=; Expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/; Secure
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - DELETE, GET, HEAD, OPTIONS, POST, PUT
+      Access-Control-Allow-Headers:
+      - accept, authorization, content-type
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
+    body:
+      encoding: ASCII-8BIT
+      string: '{"_links":{"self":{"href":"/v2-beta/media"}},"media":[{"mediaId":"847473bd-1a25-459d-9d2a-8efa183d6ae4","status":"finished","metadata":{"contentType":"audio/mpeg","length":{"milliseconds":496,"descriptive":"0.0
+        sec"}},"dateCreated":"2019-04-09T14:20:22.347Z"},{"mediaId":"9b13b949-6b42-4373-9860-323a4898229c","status":"finished","metadata":{"contentType":"audio/mpeg","length":{"milliseconds":496,"descriptive":"0.0
+        sec"}},"dateCreated":"2019-04-09T14:20:23.265Z"}]}'
+    http_version:
+  recorded_at: Tue, 09 Apr 2019 14:25:10 GMT
+recorded_with: VCR 4.0.0
