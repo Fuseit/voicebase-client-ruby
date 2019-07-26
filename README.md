@@ -2,6 +2,7 @@ VoiceBase.com Ruby Client SDK
 =====================================
 
 http://www.voicebase.com/developers/
+https://voicebase.readthedocs.io/en/v3/overview/api_overview.html
 
 Example:
 
@@ -18,7 +19,5 @@ resp = client.get '/media'
 
 ```
 
-The master branch implements version 2 of the VoiceBase API.
-
-See the **v1** branch for the API version 1.
+The master branch implements version 3 of the VoiceBase API.
 
