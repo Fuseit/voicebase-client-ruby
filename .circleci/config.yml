@@ -1,0 +1,35 @@
+version: 2
+
+ruby_machine: &ruby_machine
+  image: circleci/ruby:2.3.4
+  environment:
+    RAILS_ENV: test
+    VOICEBASE_AUTH_TOKEN: test123
+
+defaults: &defaults
+  working_directory: ~/code
+  parallelism: 1
+  docker:
+    - <<: *ruby_machine
+
+jobs:
+  build:
+    <<: *defaults
+    steps:
+      - checkout
+      - run:
+          name: Install Gems
+          command: bundle install --path=vendor/bundle --clean --jobs=5
+      - run:
+          name: Create Tests Output Directory
+          command: mkdir -p ~/test-results
+      - run:
+          name: Run RSpec
+          command: |
+            bundle exec rspec --format progress \
+                              --format RspecJunitFormatter \
+                              --color \
+                              --out ~/test-results/rspec/results.xml \
+                              $(circleci tests glob "spec/**/*_spec.rb" | circleci tests split --split-by=timings)
+      - store_test_results:
+          path: ~/test-results

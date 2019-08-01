@@ -1,0 +1,244 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://apis.voicebase.com/v3/media/57196d8a-35af-4da0-8113-bc5f227cd4df/transcript/srt
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.15.4
+      Accept:
+      - text/srt
+      Authorization:
+      - Bearer ****Bearer Auth Token Masked*****
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Date:
+      - Wed, 24 Jul 2019 09:21:52 GMT
+      Server:
+      - Apache
+      X-Application-Context:
+      - application
+      X-Trace-Id:
+      - 2E1EA5B0%3AEC9E_0A40E1B3%3A01BB_5D382330_E5C1A%3A020F
+      Content-Type:
+      - text/srt;charset=UTF-8
+      Content-Length:
+      - '3750'
+      Cache-Control:
+      - private
+      Set-Cookie:
+      - SERVERID=; Expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/; Secure
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - DELETE, GET, HEAD, OPTIONS, POST, PUT
+      Access-Control-Allow-Headers:
+      - accept, authorization, content-type
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
+    body:
+      encoding: ASCII-8BIT
+      string: |+
+        1
+        00:00:08,88 --> 00:00:09,24
+        Well into
+
+        2
+        00:00:09,25 --> 00:00:15,73
+        a little bit more detail and we start with
+        Mr geisha I'm just out with the renewables
+
+        3
+        00:00:15,74 --> 00:00:21,06
+        and energy efficiency. And interest
+        of time to see how we get on as
+
+        4
+        00:00:21,07 --> 00:00:27,97
+        a renewables is actually the smaller part
+        of AA. Exposure in this pocket so that
+
+        5
+        00:00:28,01 --> 00:00:29,56
+        the funds I manage we have
+
+        6
+        00:00:30,11 --> 00:00:36,88
+        a high single digit sentence you expose
+        in this area. The first point to
+
+        7
+        00:00:36,89 --> 00:00:42,24
+        note is that historically
+        this is a sector that needed
+
+        8
+        00:00:42,25 --> 00:00:47,61
+        a HUGE amounts of subsidy to cope with
+        the very high technology cost that has
+
+        9
+        00:00:47,62 --> 00:00:54,49
+        really transformed the last ten you
+        know let's say ten years so that the
+
+        10
+        00:00:54,50 --> 00:00:59,96
+        technology cost of substantially reduced
+        solar has come down by around eighty
+
+        11
+        00:00:59,97 --> 00:01:06,34
+        percent in the last seven years or so when
+        has come down by around fifty percent
+
+        12
+        00:01:07,12 --> 00:01:13,97
+        so. Looking around forty
+        dollars megawatts how. Around
+
+        13
+        00:01:14,12 --> 00:01:20,67
+        grid parity with conventional power
+        there's gas yes I'm power stations for
+
+        14
+        00:01:20,68 --> 00:01:26,98
+        example and that means you know that those
+        are open for unsubsidized markets and
+
+        15
+        00:01:26,99 --> 00:01:32,65
+        kind of growth going forward.
+        It is an area that has
+
+        16
+        00:01:32,70 --> 00:01:38,67
+        a lot of policy backing when you leave an
+        energy targets for example so I think you
+
+        17
+        00:01:38,68 --> 00:01:45,63
+        know the momentum is definitely there in
+        you so terms of what we like and what we
+
+        18
+        00:01:45,64 --> 00:01:52,29
+        don't line. We like geothermal power
+        because as base load characteristics
+
+        19
+        00:01:53,18 --> 00:01:59,43
+        we are invested in the dominant in that
+        in that area both in terms of building in
+
+        20
+        00:01:59,44 --> 00:02:06,24
+        a pricing projects and also selling the
+        equipment power generation second area we
+
+        21
+        00:02:06,25 --> 00:02:12,68
+        really like project developers this is
+        utilities but these are the guys who are so
+
+        22
+        00:02:12,69 --> 00:02:18,23
+        far looking projects taking it from scratch
+        measuring the when you go through that
+
+        23
+        00:02:18,24 --> 00:02:23,53
+        seeing taking the construction risks and
+        creating this asset so we see the value
+
+        24
+        00:02:23,54 --> 00:02:30,24
+        creation from that and also the defensive
+        characteristics of the business that you
+
+        25
+        00:02:30,25 --> 00:02:36,93
+        end up with. So we one of the substantial
+
+        26
+        00:02:37,58 --> 00:02:44,47
+        renewable energy utilities in in that
+        area. We don't like his things we're
+
+        27
+        00:02:44,48 --> 00:02:51,29
+        less keen on so festal you pose these are
+        and cities which exist to raise money
+
+        28
+        00:02:51,30 --> 00:02:56,78
+        and buy pricing assets for
+        the income we don't see
+
+        29
+        00:02:56,79 --> 00:03:03,28
+        a loss of value creation from activity.
+        And don't see why you wouldn't pay full
+
+        30
+        00:03:03,32 --> 00:03:06,42
+        price for it safely. In
+
+        31
+        00:03:06,43 --> 00:03:11,31
+        a world solved with
+        income we just don't see
+
+        32
+        00:03:12,12 --> 00:03:17,43
+        a lot of value in in those structures we'd
+        rather in the developers who are selling
+
+        33
+        00:03:17,43 --> 00:03:24,38
+        . Projects at our cost and.
+        Second area we are caution of
+
+        34
+        00:03:24,42 --> 00:03:29,42
+        course on is. We only have in
+        the funds I manage probably
+
+        35
+        00:03:29,43 --> 00:03:32,77
+        a couple of. The reasons
+        the last is it's a bit of
+
+        36
+        00:03:32,78 --> 00:03:39,67
+        a commodity market. So
+        limited Barris went three.
+
+        37
+        00:03:40,71 --> 00:03:46,43
+        Also no enduring business model that makes
+        sense through the cycles as is pretty
+
+        38
+        00:03:46,44 --> 00:03:50,87
+        volatile and not an area that
+        we have lots of exposure.
+
+    http_version: 
+  recorded_at: Wed, 24 Jul 2019 09:21:53 GMT
+recorded_with: VCR 5.0.0

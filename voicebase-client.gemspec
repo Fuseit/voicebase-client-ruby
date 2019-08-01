@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'voicebase'
-  s.version     = '1.0.0'
+  s.version     = '3.0.0'
   s.date        = '2015-04-21'
   s.rubyforge_project = "nowarning"
   s.summary     = "Ruby client for voicebase.com API"
@@ -16,6 +16,7 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency "hashie"
   s.add_runtime_dependency "mimemagic"
   s.add_development_dependency "rspec"
+  s.add_development_dependency 'rspec_junit_formatter'
   s.add_development_dependency "dotenv"
   s.add_development_dependency "vcr"
   s.add_development_dependency "webmock"

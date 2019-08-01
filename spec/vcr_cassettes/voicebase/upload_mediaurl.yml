@@ -1,0 +1,59 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://apis.voicebase.com/v3/media
+    body:
+      encoding: UTF-8
+      string: "-------------RubyMultipartPost-c69d1c419b6fce6b53a93ff11c325adc\r\nContent-Disposition:
+        form-data; name=\"mediaUrl\"\r\n\r\nhttp://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4\r\n-------------RubyMultipartPost-c69d1c419b6fce6b53a93ff11c325adc--\r\n"
+    headers:
+      User-Agent:
+      - voicebase-client-ruby/3.0.0
+      Accept:
+      - application/json
+      Content-Type:
+      - multipart/form-data; boundary=-----------RubyMultipartPost-c69d1c419b6fce6b53a93ff11c325adc
+      Content-Length:
+      - '270'
+      Authorization:
+      - Bearer ****Bearer Auth Token Masked*****
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Date:
+      - Wed, 24 Jul 2019 09:21:26 GMT
+      Server:
+      - Apache
+      X-Application-Context:
+      - application
+      X-Trace-Id:
+      - 2E1EA5B0%3AA0E6_0A40E225%3A01BB_5D382316_FC53C%3A7A24
+      Content-Type:
+      - application/json;charset=UTF-8
+      Set-Cookie:
+      - SERVERID=; Expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/; Secure
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - DELETE, GET, HEAD, OPTIONS, POST, PUT
+      Access-Control-Allow-Headers:
+      - accept, authorization, content-type
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
+    body:
+      encoding: ASCII-8BIT
+      string: '{"_links":{"self":{"href":"/v3/media/cf60d533-57c3-4103-a3d7-cee6b7022967"},"metadata":{"href":"/v3/media/cf60d533-57c3-4103-a3d7-cee6b7022967/metadata"}},"formatVersion":"3.0.21","mediaId":"cf60d533-57c3-4103-a3d7-cee6b7022967","status":"accepted","dateCreated":"2019-07-24T09:21:27.336Z","metadata":{},"mediaContentType":"video/mp4","length":15045}'
+    http_version: 
+  recorded_at: Wed, 24 Jul 2019 09:21:27 GMT
+recorded_with: VCR 5.0.0

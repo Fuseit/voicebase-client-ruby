@@ -10,11 +10,11 @@ module VoiceBase
       end
     end
 
-    def status()
+    def http_status
       return @http_resp.status
     end
 
-    def is_success()
+    def is_success
       return @is_ok
     end
 
